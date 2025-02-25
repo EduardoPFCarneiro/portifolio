@@ -1,0 +1,76 @@
+/* Estilo Geral */
+.sobre-mim {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sobre-mim-secao {
+    margin-bottom: 40px;
+  }
+  
+  .sobre-mim h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .sobre-mim-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sobre-mim-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 4px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .sobre-mim-texto {
+    max-width: 600px;
+  }
+  
+  .sobre-mim-texto p {
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  /* Seção de Habilidades */
+  .habilidades-secao {
+    margin-top: 50px;
+  }
+  
+  .habilidades-secao h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .habilidades-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .habilidade {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .habilidade h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .habilidade p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
